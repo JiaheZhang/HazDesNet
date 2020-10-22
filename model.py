@@ -3,6 +3,8 @@ from keras.layers import Conv2D, Input, Concatenate
 from keras.layers import MaxPool2D, BatchNormalization, AvgPool2D
 
 
+weight_path = './weights/weights.hdf5'
+
 def HazDesNet():
     input_1 = Input(shape=(None, None, 3))
 
@@ -27,6 +29,13 @@ def HazDesNet():
     
     return model
 
-if __name__ == "__main__":
+
+def load_HazDesNet():
     model = HazDesNet()
+    model.load_weights(weight_path)
+
+    return model
+
+if __name__ == "__main__":
+    model = load_HazDesNet()
     model.summary()
