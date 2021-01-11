@@ -9,7 +9,7 @@ The paper has been accepted by T-ITS and can be found at [this](https://ieeexplo
 
 ## Datasets
 
-The Human Perceptual Haze Density (HPHD) database includes a real-world hazy image (RHI) subset and a synthetic hazy image (SHI) subset. The database can be downloaded at [this](https://github.com/JiaheZhang/HazDesNet/releases/tag/0.0.2). The details of the database are described in the paper. Besides, we also provide a copy of the testing hazy image and MOSs of the [LIVE Image Defogging Database](https://github.com/JiaheZhang/HazDesNet/releases/download/0.0.1) [2] to facilitate the research. If you want to use the whole database, please visit the website in [2] and follow their rules.
+The Human Perceptual Haze Density (HPHD) database includes a real-world hazy image (RHI) subset and a synthetic hazy image (SHI) subset. The database can be downloaded at [this](https://github.com/JiaheZhang/HazDesNet/releases/tag/0.0.2). The details of the database are described in the paper. Besides, we also provide a copy of the testing hazy image and MOSs of the [LIVE Image Defogging Database](https://github.com/JiaheZhang/HazDesNet/releases/download/0.0.1/LIVE_Defogging.zip) [2] to facilitate the research. If you want to use the whole database, please visit the website in [2] and follow their rules.
 
 ## Uages
 
